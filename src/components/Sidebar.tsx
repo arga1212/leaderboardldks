@@ -25,9 +25,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
   
   const navItems = [
     { id: TabView.LEADERBOARD, label: '🏆 Leaderboard', description: 'Klasemen Sementara' },
-    { id: TabView.ADMIN_POINTS, label: '⚡ Kelola Poin', description: 'Tambah/Kurang Poin' },
-    { id: TabView.ADMIN_IMPORT, label: '📂 Import Data', description: 'Upload Peserta' },
-    { id: TabView.GUIDE, label: '📖 Panduan', description: 'Cara Penggunaan' },
+    { id: TabView.ADMIN_POINTS, label: 'Kelola Poin', description: 'Tambah/Kurang Poin' },
+    { id: TabView.ADMIN_IMPORT, label: 'Import Data', description: 'Upload Peserta' },
+    { id: TabView.GUIDE, label: 'Panduan', description: 'Cara Penggunaan' },
   ];
 
   return (
@@ -113,8 +113,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {/* Footer Box */}
           <div className="absolute bottom-4 left-0 w-full px-4">
             <div className="p-3 rounded-lg bg-gradient-to-br from-red-50 to-white border border-red-100 text-xs text-center shadow-sm">
-              <div className="font-bold text-red-600 mb-1">Panitia LDKS OSIS</div>
-              <div className="text-slate-500">SMK Telkom Sidoarjo 🇮🇩</div>
+              <div className="font-bold text-red-600 mb-1">Panitia LDKS</div>
+              <div className="text-slate-500">SMK Telkom Sidoarjo</div>
             </div>
           </div>
 
